@@ -45,7 +45,7 @@ class Stopwatch extends React.Component {
     };
     return obj;
   }
-  a
+  
 
   startTimer(clicked) {
     if (this.timer === 0) {
