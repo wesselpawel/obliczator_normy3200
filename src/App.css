@@ -6,7 +6,7 @@ body {
 .container {
   padding:20px;
   text-align: center;
-  width:400px;
+  width:350px;
   height:100%;
   background-color: rgb(93, 190, 255);
 }
@@ -17,6 +17,9 @@ body {
   height:35px;
   color:white;
   margin:10px;
+}
+.dodaj{
+  height:85px;
 }
 ul{
   list-style: none;
@@ -29,7 +32,16 @@ li{
   padding:10px;
   display:flex;
   justify-content: space-between;
+  margin: 10px 15px 0 0;
 }
 h1{
   color:white;
+}
+input{
+  background-color: rgb(255, 255, 255);
+  border:2px solid rgb(255, 255, 255);
+  width:133px;
+  height:25px;
+  color:rgb(37, 131, 194);
+  text-align: center;
 }
