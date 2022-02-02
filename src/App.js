@@ -19,7 +19,7 @@ class Stopwatch extends React.Component {
   }
   addPositions(e) {
     let zrobione = Math.floor(this.state.value)+Math.floor(this.state.zrobione)
-    let norms = Math.floor(this.state.norms)+Math.floor(this.state.zrobione)
+    let norms = Math.floor(this.state.norms)+Math.floor(this.state.value)
     this.setState({zrobione: zrobione, norms: norms,});
     
     
