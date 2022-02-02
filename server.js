@@ -8,7 +8,7 @@ const mongoose = require('mongoose')
 
 const port= 3001
 
-mongoose.connect("mongodb+srv://wesselpawel:QWERTY12345@cluster0.0hsed.mongodb.net/test?retryWrites=true ") 
+mongoose.connect(" ") 
 
 app.use("/", require("./routes/imieRoute"))
 
